@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+img{
+    object-fit: cover;
+    object-position: top;
+}
+
+nav{
+    padding: 20px 148px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+nav .logo a{
+    font-size: 15px;
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+nav .nav-links{
+    display: flex;
+    gap: 16px;
+}
+
+nav .nav-links a{
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover,
+nav .nav-links a.selected{
+    color: rgb(108, 0, 124);
+}
+
+.logo-1 {
+    max-width: 50%;
+    border-radius: 0.75rem;
+    position: relative;
+    bottom: 150px;
+    left: 255px;
+    margin-bottom: -680px;
+  }
+
+.second {
+    padding: 4px 450px 20px;
+    width: 100%;
+}
+
+
+.description {
+    padding: 15px 30px 25px;
+    margin-left: -500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 100px
+}
+
+.second2 {
+    padding: 4px 540px 20px;
+    width: 100%;
+}
+
+
+.description2 {
+    margin-left: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 100px
+}
+
+.buttons {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    justify-content: flex-start;
+    padding-left: 300px;
+}
+
+.right {
+    justify-content: flex-end;
+    padding-right: 300px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-me {
+    background-color: #93b5da;
+    color: white;
+    margin-left: -542px;
+    margin-top: 100px;
+}
+
+.source-code {
+    background-color: #93b5da;
+    color: white;
+    margin-left: 111px;
+    margin-top: 100px;
+}
+
+.button:hover {
+    opacity: 0.8;
+    background-color: purple;
+}
+
+
+  
+  test1 {
+    margin-left: 400px;
+  }
+
+  .logo2 {
+    max-width: 19%;
+    border-radius: 0.75rem;
+    position: relative;
+    bottom: -30px;
+    margin-bottom: -280px;
+  }

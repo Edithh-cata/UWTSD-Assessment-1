@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+img{
+    object-fit: cover;
+    object-position: top;
+}
+
+nav{
+    padding: 20px 148px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+nav .logo a{
+    font-size: 15px;
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+nav .nav-links{
+    display: flex;
+    gap: 16px;
+}
+
+nav .nav-links a{
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover,
+nav .nav-links a.selected{
+    color: rgb(108, 0, 124);
+
+}
+
+.second {
+    padding: 4px 540px 20px;
+    width: 100%;
+}
+
+
+.description {
+    padding: 15px 30px 25px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px
+}
+
+.container {
+  padding: 15px 11px 25px;
+    margin-left: 5px;
+    margin-right: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.container69 {
+  text-align: left;
+  margin-right: -150px;
+  margin-bottom: 50px;
+}
+.container2 {
+    margin-top: -90px;
+    margin-bottom: 70px;
+    margin-left: 250px;
+}
+
+.skill {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#skill1 {
+  text-align: left;
+  margin-left: -200px;
+  margin-bottom: -115px;
+}
+
+#skill2 {
+  text-align: right;
+  margin-right: -200px;
+  margin-bottom: 50px;
+}
+
+#skill3 {
+  text-align: left;
+  margin-left: -200px;
+  margin-bottom: 50px;
+}
+
+#skill4 {
+  text-align: right;
+  margin-right: -200px;
+  margin-bottom: 50px;
+}
+
+#skill5 {
+  text-align: left;
+  margin-left: -200px;
+  margin-bottom: 50px;
+}
+
+
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-item {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.container3 {
+  display: grid;
+  place-items: center;
+  margin-left: 20px;
+}
+
+.skills-image {
+  max-width: 100%;
+  border-radius: 0.75rem;
+}
+
+.skill1-image {
+  max-width: 35%;
+  border-radius: 0.75rem;
+  position: relative;
+  bottom: 144px;
+  left: 700px;
+}
+
+.skill2-image {
+  max-width: 34%;
+  border-radius: 0.75rem;
+  position: relative;
+  bottom: 50px;
+  left: -700px;
+  margin-top: -190px;
+}
+
+.skill3-image {
+  max-width: 35%;
+  border-radius: 0.75rem;
+  position: relative;
+  bottom: 15px;
+  left: 700px;
+  margin-top: -190px;
+}
+
+.skill4-image {
+  max-width: 34%;
+  border-radius: 0.75rem;
+  position: relative;
+  bottom: 16px;
+  left: -700px;
+  margin-top: -190px;
+}
+
+.skill5-image {
+  max-width: 30%;
+  border-radius: 0.75rem;
+  position: relative;
+  bottom: 125px;
+  left: 700px;
+}
+
+
+
+
+
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+#soft-hard {
+  text-align: left;
+  margin-left: -200px;
+  margin-bottom: 50px;
+}
+
+.soft-work {
+  align-self: flex-start;
+  margin-left: 240px;
+}
+
+.hard-work {
+  align-self: flex-end;
+  margin-right: 125px;
+}
+
+.soft-work h2{
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  margin-left: 45px;
+}
+
+.hard-work h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  margin-left: 65px;
+}
+
+.soft-work ul, .hard-work ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.soft-work ul li, .hard-work ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+
+
+footer{
+  padding: 40px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+footer .socials{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+footer .socials i{
+  font-size: 40px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer .socials i:hover{
+  color: rgb(108, 0, 124);
+}
+
+footer p{
+  font-size: 16px;
+}
+
+
+.containerskills {
+  display: relative;
+  margin-top: -120px;
+  margin-bottom: 20px;
+}
+
+.soft-image {
+  max-width: 30%;
+  height: 200px;
+  width: 200px;
+  margin-left: 620px;
+  border-radius: 0.75rem;
+}
+
+.hard-image {
+  max-width: 100%;
+  height: 200px;
+  width: 200px;
+  margin-left: 365px;
+  border-radius: 0.75rem;
+}
+

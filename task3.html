@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cata's e-Portfolio | Automatic Reference Tool</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/438145724_1516299662292970_922228664907412186_n.jpg">
+        <a href="#">Student Catalin | ID: 2335166</a>
+        </div>
+        <div class="nav-links"
+            <a href="index.html">Overview</a>
+            <a href="task1.css">Task 1</a>
+            <a href="task2.html">Task 2</a>
+            <a class="selected" href="task3.html">Task 3</a>
+            <a href="task4.html">Task 4</a>
+            <a href="references.html">References</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h1>Automatic Reference Tool</h1>
+        <form id="referenceForm">
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required>
+            
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" required>
+            
+            <label for="publisher">Publisher:</label>
+            <input type="text" id="publisher" name="publisher" required>
+            
+            <button type="submit">Generate Reference</button>
+        </form>
+        <div id="referenceOutput"></div>
+    </div>
+
+
+    <div class="description">
+
+        <h2>Task Description</h2>
+        <br><br>
+          <p>The Automatic Reference Tool is a web-based application that simplifies
+             the process of creating references for books and articles. It is built using HTML,
+              CSS, and JavaScript and provides a user-friendly interface for inputting essential
+               publication details such as author, title, publication year, and publisher.
+<br><br>
+            The HTML structure includes a form with clearly labeled input fields for each required
+             piece of information. After filling out the form and submitting it, the JavaScript
+              code captures the input values, constructs a formatted reference string, and displays
+               it to the user.
+            <br><br>
+            The CSS file styles the form and output area to improve usability and aesthetics. 
+            The layout is designed to be clean and responsive, making it visually appealing on
+             various devices. The styled button encourages user interaction.
+            <br><br>
+            The JavaScript file contains an event listener that triggers when the form is submitted.
+             It prevents the default form submission behavior, collects the input data,
+              and dynamically generates the reference in APA format. The resulting reference is
+               displayed in a designated output area within the webpage.
+            <br><br>
+            This tool is beneficial for students, researchers, and professionals who need to
+             quickly and accurately generate references, ensuring consistency and saving time in
+              their writing and research tasks.
+            <br><br>
+              </p>
+
+              </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
