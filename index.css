@@ -59,12 +59,12 @@ nav .nav-links a.selected{
 }
 
 .logo-1 {
-    max-width: 50%;
+    max-width: 25%;
     border-radius: 0.75rem;
     position: relative;
     bottom: 150px;
     left: 350px;
-    margin-bottom: -681px;
+    margin-bottom: -200px;
   }
 
 .second {
@@ -105,8 +105,8 @@ nav .nav-links a.selected{
     flex: 1;
     display: flex;
     justify-content: center;
-    margin-left: 200px;
-    margin-top: 120px;
+    margin-left: 500px;
+    margin-top: -350px;
 }
 
 .left {
