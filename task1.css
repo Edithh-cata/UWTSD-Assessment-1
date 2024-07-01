@@ -184,7 +184,7 @@ nav .nav-links a.selected{
   border-radius: 0.75rem;
   position: relative;
   bottom: 144px;
-  left: 700px;
+  left: 1000px;
 }
 
 .skill2-image {
@@ -192,7 +192,7 @@ nav .nav-links a.selected{
   border-radius: 0.75rem;
   position: relative;
   bottom: 50px;
-  left: -700px;
+  left: -1000px;
   margin-top: -190px;
 }
 
@@ -201,7 +201,7 @@ nav .nav-links a.selected{
   border-radius: 0.75rem;
   position: relative;
   bottom: 15px;
-  left: 700px;
+  left: 1000px;
   margin-top: -190px;
 }
 
@@ -210,7 +210,7 @@ nav .nav-links a.selected{
   border-radius: 0.75rem;
   position: relative;
   bottom: 16px;
-  left: -700px;
+  left: -1000px;
   margin-top: -190px;
 }
 
@@ -219,7 +219,7 @@ nav .nav-links a.selected{
   border-radius: 0.75rem;
   position: relative;
   bottom: 125px;
-  left: 700px;
+  left: 1000px;
 }
 
 
@@ -237,7 +237,7 @@ nav .nav-links a.selected{
 
 #soft-hard {
   text-align: left;
-  margin-left: -200px;
+  margin-left: -5px;
   margin-bottom: 50px;
 }
 
